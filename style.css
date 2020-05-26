@@ -1,0 +1,20 @@
+
+#titulo{
+    margin: 5px 5px 5px 5px;
+    padding: 20px;
+    font-family: fantasy;
+}
+.paragrafo{
+    font-size: larger;
+    color: #DBB4AD;
+}
+.nom{
+    background-color:#A2AD91;
+}
+li{
+    font-size: xx-large;
+    color: #A2AD91;
+}
+
+body{
+    background-color: #FFE3DC;
