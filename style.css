@@ -1,6 +1,6 @@
 body {
-    background-color: #2A2D3E;
-    font-family: "Ubuntu";
+    background-color: #F49102;
+    font-family: fantasy;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,49 +8,51 @@ body {
 }
 
 .nome {
-    font-family: "Ubuntu-Bold";
-    color: #08F0F0;
+    font-family: fantasy;
+    background-color:#F3B64A;
+    color: #002C40;
     font-size: 44px;
     margin: 10px;
 }
 
 .gostos {
     margin: 10px;
-    color: #FF1B5A;
+    color: #2F6075;
     font-size: 22px;
 }
 
 .lista {
-    color: #50FA7B;
+    color: #3E3E3E;
 }
 
 .divisor {
-    color: #08F0F0;
+    color: #2F6075;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .periodo {
-    color: #FF1B5A;
+    color: #2F6075;
     font-size: 22px;
     margin: 10px;
 }
 
 .linkpuc {
-    color: #50FA7B;
+    color: #3E3E3E;
 }
 
 .secao1 {
-    background-color: #414462;
+    background-color: #F3B64A;
     border-style: solid;
     border-width: 1px;
-    border-color: #50FA7B;
+    border-color: #3E3E3E;
     margin-bottom: 20px;
 }
 
 .secao2 {
-    background-color: #414462;
+    background-color: #F3B64A;
     border-style: solid;
     border-width: 1px;
-    border-color: #FF1057;
+    border-color: #2F6075;
     padding: 10px;
 }
 
@@ -59,19 +61,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #414462;
+    background-color:#F3B64A;
     border-style: solid;
     border-width: 1px;
-    border-color: #00F1F6;
+    border-color: #3E3E3E;
     padding: 10px;
-}
-
-@font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-Light.ttf");
-}
-
-@font-face {
-    font-family: "Ubuntu-Bold";
-    src: url("../fonts/Ubuntu-Bold.ttf");
 }
