@@ -13,6 +13,7 @@ body {
     color: #002C40;
     font-size: 44px;
     margin: 10px;
+    border-radius: 20px;
 }
 
 .gostos {
@@ -66,4 +67,78 @@ body {
     border-width: 1px;
     border-color: #3E3E3E;
     padding: 10px;
+}
+
+.secao4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3B64A;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2F6075;
+    padding: 10px;
+}
+
+.inputNome {
+    background-color: #F3B64A;
+    border: 2px solid #2F6075;
+    border-radius: 4px;
+    height: 20px;
+    font-size: 14px;
+    padding: 0px 3px;
+    margin-bottom: 10px;
+}
+
+.inputIdade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3B64A;
+    border: 2px solid #2F6075;
+    color: #2F6075;
+    border-radius: 4px;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 3px;
+}
+
+.idadeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonIdade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3B64A;
+    border: 2px solid #2F6075;
+    border-radius: 4px;
+    text-align: center;
+    color: #2F6075;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.botaoAlerta {
+    font-family:fantasy;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #F3B64A;
+    border: 2px solid #2F6075;
+    border-radius: 4px;
+    text-align: center;
+    color: #2F6075;
+    cursor: pointer;
+    height: 24px;
+    width: 80px;
 }

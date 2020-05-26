@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <title>Maycon</title>
+        <script src="scripts.js"></script>
     </head>
     
     <body>
@@ -30,5 +31,21 @@
             <a href="https://www.pucpcaldas.br/" class="linkpuc">Puc Poços de Caldas</a>
         </div>
 
+        <p class="divisor">¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯</p>
+
+        <div class="secao4">
+            <p>Seu Nome:</p>
+            <input id="nome" class="inputNome" placeholder="Assinar Contrato"/>
+
+            <p>Sua Idade:</p>
+
+            <div class="idadeDiv">
+                <button class="buttonIdade" onclick="decrementaIdade()">-</button>
+                <input id="idade" class="inputIdade" value=1 disabled/>
+                <button class="buttonIdade" onclick="incrementaIdade()">+</button>
+            </div>
+
+            <button class="botaoAlerta" onclick="clique_botao()">Magica</button>
+        </div>
     </body>
 </html>
