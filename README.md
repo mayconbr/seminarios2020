@@ -13,7 +13,7 @@ Aqui eu comecei a aprender como criar páginas da web usando HTML.
 ## 💻 Como visualizar:
 1. Faça o download dos arquivos 📂  
 2. Abra o arquivo `index.html` no seu navegador favorito 🌐  
-3. Aproveite! 🎈  
+3. Enjoy! 🎈
 
 ## 🌈 Próximos passos:
 - Adicionar mais elementos de HTML ✔️  
